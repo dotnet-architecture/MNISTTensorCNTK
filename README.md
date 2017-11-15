@@ -13,6 +13,7 @@ The sample provides you an example of how you can use Tensor<T> today with CNTK 
 To learn more about [Tensor<T> follow our blog post](https://blogs.msdn.microsoft.com/dotnet/2017/11/15/introducing-tensor-for-machine-learning-and-ai-libraries) and [GitHub repo](https://github.com/dotnet/corefxlab/tree/master/src/System.Numerics.Tensors). 
   
 To follow a video tutorial on this app being used you can also follow this video. 
+https://channel9.msdn.com/Events/Connect/2017/t126
 
 
   
