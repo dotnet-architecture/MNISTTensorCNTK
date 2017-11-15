@@ -8,7 +8,7 @@ This sample is a very simple WPF application which recognizes hand-written digit
      alt="Tensor<T> and CNTK"
      style="float: left; margin-right: 10px;" />
 
-The sample provides you an example of how you can use Tensor<T> today with CNTK for using a pre-built CNTK MNIST model. To use this sample just clone this repo and launch it in Visual Studio 2017.
+The sample consits of two projects in the solution 'Digitz' (C# project using Tensor<T> and CNTK pre-built MNIST model) and 'Training' (Python project, which generates the MNIST model). The sample provides you an example of how you can use Tensor<T> today with CNTK for using a pre-built CNTK MNIST model. To use this sample just clone this repo and launch it in Visual Studio 2017.
   
 To learn more about [Tensor<T> follow our blog post](https://blogs.msdn.microsoft.com/dotnet/2017/11/15/introducing-tensor-for-machine-learning-and-ai-libraries) and [GitHub repo](https://github.com/dotnet/corefxlab/tree/master/src/System.Numerics.Tensors). 
   
