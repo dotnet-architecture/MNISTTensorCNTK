@@ -5,7 +5,7 @@
 This sample is a very simple WPF application which recognizes hand-written digits using the pre-built MNIST convolutional model. 
 
 <img src="https://msdnshared.blob.core.windows.net/media/2017/11/Tensor.png"
-     alt="Markdown Monster icon"
+     alt="Tensor<T> and CNTK"
      style="float: left; margin-right: 10px;" />
 
 The sample provides you an example of how you can use Tensor<T> today with CNTK for using a pre-built CNTK MNIST model. To use this sample just clone this repo and launch it in Visual Studio 2017.
