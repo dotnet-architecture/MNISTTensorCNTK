@@ -1,6 +1,6 @@
 # MNIST for ML Beginners using C#
   
-This sample is a very simple WPF application which recognizes hand-written digits using the pre-built MNIST convolutional model. The MNIST is Machine Learning's Hello World program. 
+This sample is a very simple WPF application which recognizes hand-written digits using the pre-built MNIST convolutional model. The MNIST problem is Machine Learning's Hello World program. 
 
 MNIST is a simple computer vision dataset which consists of hand written digits like as shown below. 
 
