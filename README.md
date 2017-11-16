@@ -42,9 +42,9 @@ Congrats! you have just completed the helloworld program for Machine Learning.
 # TL;DR
 The sample provides you an example of how you can use Machine Learning and AI in your .NET apps today. The sample basically loads the pre-built model 'digit.model' and takes the bitmap image that user draws out, converts that into an optimized multi-dimensional exchange type Tensor<T> and then calls CNTK evaluate method to evaluate on the model. 
   
-The evaluate method from CNTK returns a list of floats (0 - 9) predicting the confidence for each of these digits. The highest confidence digit is then displayed in the app. This sample also introduces Tensor<T>. 
+The evaluate method from CNTK returns a list of floats (0 - 9) predicting the confidence for each of these digits. The highest confidence digit is then displayed in the app.
 
-[Tensor<T>](https://blogs.msdn.microsoft.com/dotnet/2017/11/15/introducing-tensor-for-machine-learning-and-ai-libraries) is an exchange type for homogenous multi-dimensional data for 1 to N dimensions. The motivation behind introducing Tensor<T> is to make it easy for Machine Learning library vendors like CNTK, Tensorflow, Caffe, Scikit-Learn to port their libraries over to .NET with minimal dependencies in place.  Tensor<T> is designed to provide the following characteristics.
+This sample also introduces Tensor<T>, [Tensor<T>](https://blogs.msdn.microsoft.com/dotnet/2017/11/15/introducing-tensor-for-machine-learning-and-ai-libraries) is an exchange type for homogenous multi-dimensional data for 1 to N dimensions. The motivation behind introducing Tensor<T> is to make it easy for Machine Learning library vendors like CNTK, Tensorflow, Caffe, Scikit-Learn to port their libraries over to .NET with minimal dependencies in place.  Tensor<T> is designed to provide the following characteristics.
 
 To learn more about [Tensor<T> follow our blog post](https://blogs.msdn.microsoft.com/dotnet/2017/11/15/introducing-tensor-for-machine-learning-and-ai-libraries) and [GitHub repo](https://github.com/dotnet/corefxlab/tree/master/src/System.Numerics.Tensors). 
   
