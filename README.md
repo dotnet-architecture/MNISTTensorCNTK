@@ -1,4 +1,4 @@
-# MNIST Sample with Tensor<T> and CNTK
+# MNIST for ML Beginners using C#
   
 This sample is a very simple WPF application which recognizes hand-written digits using the pre-built MNIST convolutional model. The MNIST is Machine Learning's Hello World program. 
 
@@ -6,9 +6,11 @@ MNIST is a simple computer vision dataset which consists of hand written digits 
 
 <img src=https://msdnshared.blob.core.windows.net/media/2017/11/MNIST.png  alt="MNIST" />
 
-This tutorial comes with a pre-built CNTK model which is trained to look at these hand-written digits and predict what these digits are. We in this very first touch, dip a toe session with Machine Learning will consume that pre-built CNTK model into a .NET application that you are already used to. Follow the steps below to get going. 
+This tutorial comes with a pre-built CNTK model which is trained to look at these hand-written digits and predict what these digits are. 
 
-Get Started 
+CNTK is a deep learning library in which this model is built in and using which we can consume and evaluate on this pre-built model into a very simple .NET application. Follow the steps below to get going. 
+
+# Get Started 
 1. If you are new to .NET, go ahead and download [Visual Studio 2017](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15)
 2. Clone this github repo using git clone. 
 
