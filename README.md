@@ -11,9 +11,9 @@ This tutorial comes with a pre-built CNTK model which is trained to look at thes
 CNTK is a deep learning library in which this model is built in. For now, we will just basically load this model as a resource into your .NET application and evaluate on it.  Follow the steps below to get going. 
 
 # Get Started 
-1. If you are new to .NET, go ahead and download [Visual Studio 2017](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) and select only the '.NET Desktop https://msdnshared.blob.core.windows.net/media/2017/11/dotnetdesktop.png
+1. If you are new to .NET, go ahead and download [Visual Studio 2017](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) and select only the '.NET Desktop 
 
-<img src=https://msdnshared.blob.core.windows.net/media/2017/11/dotnetdesktop.png alt="workload install"/>
+<img src=https://msdnshared.blob.core.windows.net/media/2017/11/dotnetdesktop.png alt="workload install" width="100" hieght="80"/>
 
 2. Clone this github repo using git clone. 
 
