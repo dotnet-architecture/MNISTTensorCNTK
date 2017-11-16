@@ -21,7 +21,9 @@ CNTK is a deep learning library in which this model is built in. For now, we wil
 
 4.This solution consits of two projects 'Digitz' (C# project building a windows app using the CNTK pre-built MNIST model) and 
   'Training' (Python project, which generates the MNIST model using CNTK). Don't worry about the Python project for now. 
-   
+
+ <img src=https://msdnshared.blob.core.windows.net/media/2017/11/slnfragmentation.png alt="workload install" width="411" hieght="441"/>
+
 5. Set the start-up project to be 'Digitz' project as shown below and hit F5 (start) to launch the app.
 
 The sample provides you an example of how you can use Tensor<T> today with CNTK for using a pre-built CNTK MNIST model. To use this sample just clone this repo and launch it in Visual Studio 2017.
