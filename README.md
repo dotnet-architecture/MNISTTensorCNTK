@@ -10,7 +10,7 @@ This tutorial comes with a pre-built CNTK model which is trained to look at thes
 
 CNTK is a deep learning library in which this model is built in. For now, we will just basically load this model as a resource into your .NET application and evaluate on it.  Follow the steps below to get going. 
 
-# Get Started 
+# Get Started with five steps...
 1. If you are new to .NET, go ahead and download [Visual Studio 2017](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) and select only the '.NET Desktop 
 
 <img src=https://msdnshared.blob.core.windows.net/media/2017/11/dotnetdesktop.png alt="workload install" width="400" hieght="320"/>
@@ -23,10 +23,18 @@ CNTK is a deep learning library in which this model is built in. For now, we wil
   'Training' (Python project, which generates the MNIST model using CNTK). Don't worry about the Python project for now. 
 
  <img src=https://msdnshared.blob.core.windows.net/media/2017/11/slnfragmentation.png alt="workload install" width="411" hieght="441"/>
-
+ 
 5. Set the start-up project to be 'Digitz' project as shown below and hit F5 (start) to launch the app.
 
+<img src=https://msdnshared.blob.core.windows.net/media/2017/11/startup.png alt="startupproject" width="780" hieght="441"/>
+
+6. Draw out a hand-written digit and click 'Recognize' to see if this works for you!
+
+
+
+
 The sample provides you an example of how you can use Tensor<T> today with CNTK for using a pre-built CNTK MNIST model. To use this sample just clone this repo and launch it in Visual Studio 2017.
+
 
 [Tensor<T>](https://blogs.msdn.microsoft.com/dotnet/2017/11/15/introducing-tensor-for-machine-learning-and-ai-libraries) is an exchange type for homogenous multi-dimensional data for 1 to N dimensions. The motivation behind introducing Tensor<T> is to make it easy for Machine Learning library vendors like CNTK, Tensorflow, Caffe, Scikit-Learn to port their libraries over to .NET with minimal dependencies in place.  Tensor<T> is designed to provide the following characteristics.
 
