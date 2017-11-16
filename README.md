@@ -8,10 +8,13 @@ MNIST is a simple computer vision dataset which consists of hand written digits 
 
 This tutorial comes with a pre-built CNTK model which is trained to look at these hand-written digits and predict what these digits are. 
 
-CNTK is a deep learning library in which this model is built in and using which we can consume and evaluate on this pre-built model into a very simple .NET application. Follow the steps below to get going. 
+CNTK is a deep learning library in which this model is built in. For now, we will just basically load this model as a resource into your .NET application and evaluate on it.  Follow the steps below to get going. 
 
 # Get Started 
-1. If you are new to .NET, go ahead and download [Visual Studio 2017](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15)
+1. If you are new to .NET, go ahead and download [Visual Studio 2017](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) and select only the '.NET Desktop https://msdnshared.blob.core.windows.net/media/2017/11/dotnetdesktop.png
+
+<img src=https://msdnshared.blob.core.windows.net/media/2017/11/dotnetdesktop.png alt="workload install"/>
+
 2. Clone this github repo using git clone. 
 
 The sample consits of two projects in the solution 'Digitz' (C# project using Tensor<T> and CNTK pre-built MNIST model) and 'Training' (Python project, which generates the MNIST model). 
