@@ -12,7 +12,7 @@ CNTK is a deep learning library in which this model is built in. For now, we wil
 
 # Get Started
 ## Step 1: Download and Install
-If you are new to .NET, go ahead and download [Visual Studio 2017](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) and select only the '.NET Desktop 
+If you are new to .NET, go ahead and download [Visual Studio 2017](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) and select only the '.NET desktop development' section as shown below. 
 
 <img src=https://msdnshared.blob.core.windows.net/media/2017/11/dotnetdesktop.png alt="workload install" width="400" hieght="320"/>
 
