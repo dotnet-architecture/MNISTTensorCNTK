@@ -15,14 +15,12 @@ CNTK is a deep learning library in which this model is built in. For now, we wil
 
 <img src=https://msdnshared.blob.core.windows.net/media/2017/11/dotnetdesktop.png alt="workload install" width="400" hieght="320"/>
 
-2. Clone or [download](https://github.com/dotnet-architecture/MNISTTensorCNTK/archive/master.zip) this github repo.
-
-3. Open up the MNIST solution (MNIST.sln) file in Visual Studio 2017. 
+2. Clone or [download](https://github.com/dotnet-architecture/MNISTTensorCNTK/archive/master.zip) this github repo. Open up the MNIST solution (MNIST.sln) file in Visual Studio 2017. 
                          
-<img src=https://msdnshared.blob.core.windows.net/media/2017/11/sln.png alt="workload install" width="400" hieght="120"/>
+ <img src=https://msdnshared.blob.core.windows.net/media/2017/11/sln.png alt="workload install" width="800" hieght="270"/>
 
-4. This solution consits of two projects 'Digitz' (C# project building a windows app using the CNTK pre-built MNIST model) and 
-   'Training' (Python project, which generates the MNIST model using CNTK). Don't worry about the Python project for now. 
+4.This solution consits of two projects 'Digitz' (C# project building a windows app using the CNTK pre-built MNIST model) and 
+  'Training' (Python project, which generates the MNIST model using CNTK). Don't worry about the Python project for now. 
    
 5. Set the start-up project to be 'Digitz' project as shown below and hit F5 (start) to launch the app.
 
