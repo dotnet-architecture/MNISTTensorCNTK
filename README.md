@@ -27,7 +27,7 @@ This solution consits of two projects 'Digitz' (C# project building a windows ap
 
  <img src=https://msdnshared.blob.core.windows.net/media/2017/11/slnfragmentation.png alt="workload install" width="411" hieght="441"/>
  
-## Step 4 Configure the Project for Launch
+## Step 4 Configure and build your Project for Launch
 Set the start-up project to be 'Digitz' project as shown below and then go ahead and build your application by using the right-click 'build' option.
 
 <img src=https://msdnshared.blob.core.windows.net/media/2017/11/startup.png alt="startupproject" width="780" hieght="441"/>
