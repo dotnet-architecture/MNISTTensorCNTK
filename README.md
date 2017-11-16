@@ -40,21 +40,9 @@ Launch the app by clicking the green start button at the top or F5 on your keybo
 Congrats! you have just completed the helloworld program for Machine Learning. 
 
 # TL;DR
-The sample provides you an example of how you can use Machine Learning and AI in your .NET apps today. This sample also introduces Tensor<T> with CNTK using the pre-built CNTK MNIST Model 'digit.model'. 
+The sample provides you an example of how you can use Machine Learning and AI in your .NET apps today. The sample basically loads the pre-built model 'digit.model' and takes the bitmap image that user draws out, converts that into an optimized multi-dimensional exchange type Tensor<T> and then calls CNTK evaluate method to evaluate on the model. 
   
-The model is loaded using the following C# code in DigitRecognizer.cs 
-```c#
-public DigitRecognizer()
-        {
-            // This example requires the MNISTConvolution.model.
-            LoadModel("digit.model");
-        }
-```
-This eventually calls the CNTK Function.Load method to load the digit model. 
-
-```c#
-_mnistFunction = Function.Load(modelFilePath, CpuDevice);
-```
+The evaluate method from CNTK returns a list of floats (0 - 9) predicting the confidence for each of these digits. The highest confidence digit is then displayed in the app. This sample also introduces Tensor<T>. 
 
 [Tensor<T>](https://blogs.msdn.microsoft.com/dotnet/2017/11/15/introducing-tensor-for-machine-learning-and-ai-libraries) is an exchange type for homogenous multi-dimensional data for 1 to N dimensions. The motivation behind introducing Tensor<T> is to make it easy for Machine Learning library vendors like CNTK, Tensorflow, Caffe, Scikit-Learn to port their libraries over to .NET with minimal dependencies in place.  Tensor<T> is designed to provide the following characteristics.
 
