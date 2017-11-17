@@ -21,18 +21,18 @@ Clone or [download](https://github.com/dotnet-architecture/MNISTTensorCNTK/archi
                          
  <img src=https://msdnshared.blob.core.windows.net/media/2017/11/sln.png alt="workload install" width="800" hieght="270"/>
 
-## Step 3 Understand Solution Structure 
+## Step 3: Understand Solution Structure 
 This solution consits of two projects 'Digitz' (C# project building a windows app using the CNTK pre-built MNIST model) and 
 'Training' (Python project, which generates the MNIST model using CNTK). Don't worry about the Python project for now. 
 
  <img src=https://msdnshared.blob.core.windows.net/media/2017/11/slnfragmentation.png alt="workload install" width="411" hieght="441"/>
  
-## Step 4 Configure and build your Project for Launch
+## Step 4: Configure and build your Project for Launch
 Set the start-up project to be 'Digitz' project as shown below and then go ahead and build your application by using the right-click 'build' option.
 
 <img src=https://msdnshared.blob.core.windows.net/media/2017/11/startup.png alt="startupproject" width="780" hieght="441"/>
 
-## Step 5 Launch MNIST application 
+## Step 5: Launch MNIST application 
 Launch the app by clicking the green start button at the top or F5 on your keyboard. Draw out a hand-written digit and click 'Recognize' to see if this works for you!
 
 <img src=https://msdnshared.blob.core.windows.net/media/2017/11/app.png alt="app running" width="908" hieght="441"/>
